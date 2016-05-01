@@ -1,6 +1,13 @@
+/*$(document).ready(function(){
+    $("button").click(function(){
+        $(this).hide();
+    });
+});
+*/
+
 function handleClick(){
-	    image = document.getElementById('this');
-     	image.src = this;
+	var this = document.getElementsByTagName('img')
+	document.getElementById('display').src = this 
 
 }
 
